@@ -8,10 +8,10 @@ rpc.on("ready", () => {
         details: "200 Subscribers Road",
         state: "Creating Discord bots",
         startTimestamp: new Date(),
-        largeImageKey: "gtav",
-        largeImageText: "Grand Theft Auto V",
-        smallImageKey: "gtavlvl",
-        smallImageText: "Level 500",
+        largeImageKey: "big",
+        largeImageText: "Adobe After Effects",
+        smallImageKey: "small",
+        smallImageText: "Editing A File",
         buttons : [{label : "Subscribe" , url : "https://www.youtube.com/channel/UCHE7K19D-UzbPWUr7sJaICQ"},{label : "Discord" , url : "https://discord.gg/z6bpqrKj"}]
     })
 
@@ -19,5 +19,5 @@ rpc.on("ready", () => {
 })
 
 rpc.login({
-    clientId: '788651921308123136'
+    clientId: '812250397623582722'
 })
