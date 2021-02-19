@@ -12,7 +12,7 @@ rpc.on("ready", () => {
         largeImageText: "Grand Theft Auto V",
         smallImageKey: "gtavlvl",
         smallImageText: "Level 500",
-        buttons : [{label : "Subscribe" , url : "https://youtube.com/c/"},{label : "Discord" , url : "https://discord.gg/z6bpqrKj"}]
+        buttons : [{label : "Subscribe" , url : "https://www.youtube.com/channel/UCHE7K19D-UzbPWUr7sJaICQ"},{label : "Discord" , url : "https://discord.gg/z6bpqrKj"}]
     })
 
     console.log("successfully activated the RPC")
