@@ -8,16 +8,16 @@ rpc.on("ready", () => {
         details: "200 Subscribers Road",
         state: "Creating Discord bots",
         startTimestamp: new Date(),
-        largeImageKey: "large",
-        largeImageText: "Sub 2 UltraX",
-        smallImageKey: "small",
-        smallImageText: "Road to 200 subs",
-        buttons : [{label : "Subscribe" , url : "https://youtube.com/c/UltraX1"},{label : "Discord" , url : "https://discord.gg/z6bpqrKj"}]
+        largeImageKey: "gtav",
+        largeImageText: "Grand Theft Auto V",
+        smallImageKey: "gtavlvl",
+        smallImageText: "Level 500",
+        buttons : [{label : "Subscribe" , url : "https://youtube.com/c/"},{label : "Discord" , url : "https://discord.gg/z6bpqrKj"}]
     })
 
     console.log("successfully activated the RPC")
 })
 
 rpc.login({
-    clientId: 'clientid'
+    clientId: '788651921308123136'
 })
