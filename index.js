@@ -5,13 +5,13 @@ const rpc = new RPC.Client({
 
 rpc.on("ready", () => {
     rpc.setActivity({
-        details: "200 Subscribers Road",
-        state: "Creating Discord bots",
+        details: "In Public Session",
+        state: "GTA Online",
         startTimestamp: new Date(),
         largeImageKey: "large",
-        largeImageText: "Sub 2 UltraX",
+        largeImageText: "Grand Theft Auto V",
         smallImageKey: "small",
-        smallImageText: "Road to 200 subs",
+        smallImageText: "Level 500",
         buttons : [{label : "Subscribe" , url : "https://youtube.com/c/UltraX1"},{label : "Discord" , url : "https://discord.gg/7kMWXGTxCD"}]
     })
 
@@ -19,5 +19,5 @@ rpc.on("ready", () => {
 })
 
 rpc.login({
-    clientId: '809721690225115187'
+    clientId: '788651921308123136'
 })
